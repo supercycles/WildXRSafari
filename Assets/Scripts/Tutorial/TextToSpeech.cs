@@ -19,7 +19,7 @@ public class TextToSpeech : MonoBehaviour
     public async Task Speak(string tts)
     {
     //    //This is a very dangerous way of accessing credentials, on top of that these are set to the root user of my AWS account. ***MUST*** BE CHANGED ASAP
-    //    var credentials = new BasicAWSCredentials("AKIAT6JVLYUEXWBR5VWW", "9Yp++KNRSrYVAboH8GN0v+PdB2az+PE5UI70nPk6");
+    //    var credentials = new BasicAWSCredentials("", "");
     //    var client = new AmazonPollyClient(credentials, RegionEndpoint.USEast2);
 
     //    var request = new SynthesizeSpeechRequest()
