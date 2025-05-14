@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2019568947
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b84eb10e93fd2936f3f7f54e2fc909c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c0ff923d44eb8f68679063de7a325945
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b84eb10e93fd2936f3f7f54e2fc909c9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/wott/Lightmap-0_comp_light.exr
+- Assets/Skyboxes/Sky_Pack/Daytime.exr
+- Assets/Scenes/wott/ReflectionProbe-0.exr
+Dependencies: []

@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3081040198
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef9f53e4033c92a6519b771ce1db8550
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 23f18caaf2c491ae9db28b091670d088
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ef9f53e4033c92a6519b771ce1db8550
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Skyboxes/Sky_Pack/Materials/NewLayer.terrainlayer
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga5
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga6

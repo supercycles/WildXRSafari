@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2254668904
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 912b32cb74b5c50d0293fdc33c3b9220
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 912b32cb74b5c50d0293fdc33c3b9220
+HashAppended: 0
+ClassTypes: []
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature/SpeedTree8Billboard.shadersubgraph
+- Assets/WaterWorks/Shaders/Wave_Distance.shadersubgraph
+- Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature/SpeedTree8Wind.shadersubgraph
+- Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature/SpeedTree8InterpolatedNormals.shadersubgraph
+- Assets/WaterWorks/Shaders/Refraction_Water.shadersubgraph
+- Assets/WaterWorks/Shaders/WSUV_Water.shadersubgraph
+- Assets/WaterWorks/Shaders/WaterDepthToWorldPos.shadersubgraph
+- Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature/SpeedTree8ColorAlpha.shadersubgraph
+- Assets/WaterWorks/Shaders/Edge_Distance.shadersubgraph
+Dependencies: []

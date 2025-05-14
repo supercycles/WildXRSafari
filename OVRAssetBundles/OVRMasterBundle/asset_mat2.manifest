@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 3065561790
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1230e199b1b2f59de7cbb24521ef29f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 88f4053155d2c8e8bdeb16c00867b658
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1230e199b1b2f59de7cbb24521ef29f9
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0029/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_003/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0015/frond 1.mat
+- Assets/Skyboxes/Sky_Pack/Skybox.mat
+- Assets/Stones/Materials/Stones.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 029-030/Vine_0029_b.mat
+- Assets/Materials/Stones BF.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0010/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_003/frond 2.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0016/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_001/branch 1.mat
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Materials/Dirt/Dirt_05.mat
+- Assets/RTP Vol.1/Materials/tree2_bark.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0017/branch 1.mat
+- Assets/NoirMarblePack01/Assets/Materials/Marble-03.mat
+- Assets/PBR_Floweringot/3dobjects/Materials/blumenkuebel.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0012/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0025/frond 2.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 029-030/Vine_0029_a.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_007/frond 1.mat
+- Assets/Materials/Pipes.mat
+- Assets/Materials/Fortification.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0016/frond 1.mat
+- Assets/Materials/Handles.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0029/frond 2.mat
+- Assets/Materials/Stones_rampwalls.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_004/branch 1.mat
+- Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+- Assets/RTP Vol.1/Materials/tree2_leaf.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0021/frond 2.mat
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_exr0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_jpg0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shadergraph0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga4
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga5
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga6

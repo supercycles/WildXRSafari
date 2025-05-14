@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 687215079
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1021a3876818000d01e945da0a2e5e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c1021a3876818000d01e945da0a2e5e1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/22_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/12_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0019/21.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Height.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0014/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_002/21.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_a_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/23.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/24_Normal.tga
+- Assets/Original Wood Textures/Wood Texture 02/Wood Texture 02 normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0031/11_N.tga
+- Assets/Concrete textures pack/pattern 03/diffuse.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 053-055/T_Vine_0053_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_004/11.tga
+- Assets/Concrete textures pack/pattern 08/diffuse.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/22.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/21.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Grass_10/Grass_10_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_003/21_Normal.tga
+- Assets/Original Wood Textures/Wood Texture 02/Wood Texture 02 diffuse.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Height.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/24.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/23_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0015/21_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/24_Normal.tga
+- Assets/Concrete textures pack/pattern 03/normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/21_Normal.tga
+Dependencies: []

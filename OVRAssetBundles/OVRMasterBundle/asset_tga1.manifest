@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1649406247
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b567c39185bea2a0ec39db27c64a448
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5b567c39185bea2a0ec39db27c64a448
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/12_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_004/21_N.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Ambient_Occlusion.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0010/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0019/11_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_009/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/23.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Specular.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/22.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_c_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/23_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0010/21_Mask.tga
+- Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 diffuse.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/23.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_005/21.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/22_Mask.tga
+- Assets/Concrete textures pack/pattern 20/diffuse.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_004/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0022/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0022/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_009/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/11_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/21.tga
+- Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/24.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/22.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0010/11.tga
+Dependencies: []

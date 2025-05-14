@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 198880304
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d970fbb76d131ab760195f3a38bc5d31
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0282162fcb1192b504081a859b414c34
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d970fbb76d131ab760195f3a38bc5d31
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0029/plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0017/plant2.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0031/plant2.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0032/plant2.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0031/plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_004/Plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0029/plant2.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0012/Plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0033/plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0010/Plant1.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_0017/plant3.FBX
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_001/plant2.FBX
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat3

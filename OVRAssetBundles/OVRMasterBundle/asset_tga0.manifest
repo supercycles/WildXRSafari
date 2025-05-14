@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1592514090
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb70fcc3ae3eacae4d4117509ba8c0dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb70fcc3ae3eacae4d4117509ba8c0dd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Texture/Vine 001-003/T_Vine_001_a_N.TGA
+- Assets/Tropical Plant/Asset/Texture/Vine 001-003/T_Vine_001_a_Mask.TGA
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0020/11.TGA
+- Assets/Tropical Plant/Asset/Texture/Vine 001-003/T_Vine_001_b_N.TGA
+- Assets/Tropical Plant/Asset/Texture/Vine 001-003/T_Vine_001_a_D.TGA
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0020/11_Mask.TGA
+- Assets/Tropical Plant/Asset/Texture/Vine 001-003/T_Vine_001_b_D.TGA
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0020/11_N.TGA
+Dependencies: []

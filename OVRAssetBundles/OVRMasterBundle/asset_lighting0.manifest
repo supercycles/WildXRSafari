@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 599354321
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d425e5e7037d4cb5619eb893b59137d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0a4b57b1a56d6b76d200651994ae0863
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d425e5e7037d4cb5619eb893b59137d6
+HashAppended: 0
+ClassTypes:
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Demo/DemoSceneSettings.lighting
+Dependencies: []

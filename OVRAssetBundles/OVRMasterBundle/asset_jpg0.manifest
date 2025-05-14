@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 939405613
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d878a38479b64e1db82a516d7ca1f72d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d878a38479b64e1db82a516d7ca1f72d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Textures/Posters/IMG_1386.jpg
+- Assets/Materials/stonewall.jpg
+- Assets/Textures/Posters/IMG_1349.jpg
+Dependencies: []

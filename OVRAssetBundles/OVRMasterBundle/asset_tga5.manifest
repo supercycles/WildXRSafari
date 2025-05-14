@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1208823315
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 481290614e1f41c66105e3f0060c8758
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 481290614e1f41c66105e3f0060c8758
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0028/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/12_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/11_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_004/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0016/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0028/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/25_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0032/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0015/21.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0028/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_007/21_N.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_a_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0019/21_Normal.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Ambient_Occlusion.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/12.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0014/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/22_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/24_Normal.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Grass_10/Grass_10_Diffuse.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/21_Normal.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Grass_10/Grass_10_Ambient_Occlusion.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0015/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0015/11_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0025/12.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_002/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/23_Normal.tga
+Dependencies: []

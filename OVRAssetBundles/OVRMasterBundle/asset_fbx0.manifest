@@ -1,0 +1,89 @@
+ManifestFileVersion: 0
+CRC: 1202649582
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb6d8289cb8c3db610519e087b92c0b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 15dc72b19d68e7e8f04e86defc519407
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb6d8289cb8c3db610519e087b92c0b9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
+Assets:
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1D.fbx
+- Assets/Meshes/exit.fbx
+- Assets/Meshes/underroof.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock5B.fbx
+- Assets/Tropical Plant/Asset/Meshes/Vine 001-003/SM_Vine_003.fbx
+- Assets/Meshes/wottramp0.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1E.fbx
+- Assets/Meshes/nostep.fbx
+- Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx
+- Assets/Meshes/pipes 9.fbx
+- Assets/Stones/Mesh/Stone_4.fbx
+- Assets/Stones/Mesh/Stone_1.fbx
+- Assets/Meshes/doorknob.fbx
+- Assets/Meshes/finalpath 2.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1C.fbx
+- Assets/Meshes/roofedit 1.fbx
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_009/plant.fbx
+- Assets/Meshes/walls 5.fbx
+- Assets/Stones/Mesh/Stone_3.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6C.fbx
+- Assets/Tropical Plant/Asset/Meshes/Tropical_Plant_008/plant.fbx
+- Assets/Stones/Mesh/Stone_2.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1B.fbx
+- Assets/Meshes/pipeclasp.fbx
+- Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6B.fbx
+- Assets/Meshes/bench.fbx
+- Assets/RTP Vol.1/models/tree2.fbx
+- Assets/RTP Vol.1/models/tree1a.fbx
+- Assets/Stones/Mesh/Stone_5.fbx
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0

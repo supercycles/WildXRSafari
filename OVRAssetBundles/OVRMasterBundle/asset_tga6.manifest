@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 119877400
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9333e1b03ed6ae1286fd04eadcd4cd15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9333e1b03ed6ae1286fd04eadcd4cd15
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0032/21_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/23_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0014/11_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_008/21_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0032/11_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/11_Normal.tga
+- Assets/Concrete textures pack/pattern 08/normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_003/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0031/11_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_007/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_005/11_D.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_b_N.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Grass_10/Grass_10_Height.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 053-055/T_Vine_0053_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_003/22_Normal.tga
+Dependencies: []
