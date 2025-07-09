@@ -1,0 +1,5 @@
+<linker>
+    <assembly fullname="AWSSDK.Core" preserve="all"/>
+    <assembly fullname="AWSSDK.Polly" preserve="all"/>
+    <assembly fullname="AWSSDK.Lambda" preserve="all"/>
+</linker>
