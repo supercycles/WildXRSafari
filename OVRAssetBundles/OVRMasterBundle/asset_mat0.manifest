@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 2997342032
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 331f47e89acf5265462d3eb7803bcab4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 331f47e89acf5265462d3eb7803bcab4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_008/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0021/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0024/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0022/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0017/frond 3.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_004/frond 1.mat
+- Assets/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock1.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 001-003/Vine_001_b.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0033/frond 0.mat
+- Assets/Materials/Straw.mat
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Materials/Grass/Grass_10.mat
+- Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0017/frond 5.mat
+- Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0015/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0010/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_005/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0029/frond 3.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 001-003/Vine_001_a.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0028/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 029-030/Vine_0029_c.mat
+- Assets/Materials/Fortification 1.mat
+- Assets/WaterWorks/Materials/SSR_Water.mat
+- Assets/Materials/Shiny Metal.mat
+- Assets/Original Wood Textures/Wood Texture 02/Wood Texture 02.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0017/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0020/frond 1.mat
+- Assets/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock6.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0025/frond 3.mat
+- Assets/Concrete textures pack/pattern 17/Concrete pattern 17.mat
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_jpeg0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shadergraph0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga4
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga5
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga6
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tif0

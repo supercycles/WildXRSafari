@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 999261781
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3229450654d3393f6b1fe3101d88e996
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3229450654d3393f6b1fe3101d88e996
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+- Assets/WaterWorks/Shaders/SSR_Water.shadergraph
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shadersubgraph0

@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 856221951
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1bad5a158c3961cd24f843e2d13bc271
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f9fba26cbb38215f317d1fd6b1954a0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1bad5a158c3961cd24f843e2d13bc271
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Meshes/well.obj
+- Assets/Meshes/welldirt.obj
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0

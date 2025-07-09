@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2258507134
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d20212819956fb4f4942dba0ac88fc08
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d20212819956fb4f4942dba0ac88fc08
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Concrete textures pack/pattern 09/diffuse.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_002/22.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_005/21_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_008/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0012/21.tga
+- Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Grass_10/Grass_10_Specular.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/25.tga
+- Assets/Pack Free 2/Textures/Wooden Floor 2/T_Pack_Free_Wooden_Floor_2_normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0033/frond1_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0024/22_Normal.tga
+- Assets/Pack Free 2/Textures/Wooden Floor 2/T_Pack_Free_Wooden_Floor_2_roughness.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0012/11_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0032/11_N.tga
+- Assets/Concrete textures pack/pattern 04/normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0016/21.tga
+- Assets/Pack Free 2/Textures/Wooden Floor 2/T_Pack_Free_Wooden_Floor_2_height.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_b_Mask.tga
+- Assets/Tropical Plant/Asset/Texture/Vine 029-030/T_Vine_0029_b_D.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_008/11_Normal.tga
+- Assets/Stones/Textures/stones_metalness_smoothness.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/23.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0022/11_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0029/11.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/22_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0017/21_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0031/11_Mask.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0021/22.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0010/21_N.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_001/11_Normal.tga
+- Assets/Tropical Plant/Asset/Textures/Tropical_Plant_0028/21_Normal.tga
+Dependencies: []

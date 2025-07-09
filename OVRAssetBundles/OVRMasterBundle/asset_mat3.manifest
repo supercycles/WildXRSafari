@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 2864881918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b85f066a79cb5b0d0fe131e098698dd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b85f066a79cb5b0d0fe131e098698dd8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Concrete textures pack/pattern 04/Concrete pattern 04.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0020/branch 1.mat
+- Assets/RTP Vol.1/Materials/Material_001.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_001/frond 3.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0019/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0021/branch 2.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_002/frond 1.mat
+- Assets/Concrete textures pack/pattern 08/Concrete pattern 08.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_005/branch 1.mat
+- Assets/Pack Free 2/Materials/Wooden Floor 2.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0024/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0028/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0025/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0017/frond 4.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0022/branch 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0032/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0021/frond 1.mat
+- Assets/Tropical Plant/Asset/Materials/Vine 053-055/Vine_0053.mat
+- Assets/Tropical Plant/Asset/Materials/Tropical_Plant_0025/branch 1.mat
+- Assets/Materials/PVC.mat
+- Assets/Materials/Floor.mat
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shadergraph0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga4
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga5
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga6

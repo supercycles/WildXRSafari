@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 3061625992
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1421ed0092418e7484206b321761b900
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3af767777f49b376b40b3dfb4cbdaafa
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1421ed0092418e7484206b321761b900
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RTP Vol.1/prefabs/tree1a pre.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6C.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0033/Tropical_Plant_0033_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0017/Tropical_Plant_0017_3.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0017/Tropical_Plant_0017_1.prefab
+- Assets/Tropical Plant/Asset/Prefab/Vine 001-003/Vine_003.prefab
+- Assets/RTP Vol.1/prefabs/tree2 pre.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0031/Tropical_Plant_0031_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0024/Tropical_Plant_0024_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0033/Tropical_Plant_0033_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0010/Tropical_Plant_0010_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0014/Tropical_Plant_0014_1.prefab
+- Assets/Tropical Plant/Asset/Prefab/Vine 053-055/SM_Vine_0054.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup4.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1E.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_005/Tropical_Plant_005_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_007/Tropical_Plant_007_1.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_003/Tropical_Plant_003_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_003/Tropical_Plant_003_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0012/Tropical_Plant_0012_1.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup1.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
+- Assets/Tropical Plant/Asset/Prefab/Vine 001-003/Vine_001.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0016/Tropical_Plant_0016_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0021/Tropical_Plant_0021_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0020/Tropical_Plant_0020_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0031/Tropical_Plant_0031_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0029/Tropical_Plant_0029_1.prefab
+- Assets/PBR_Floweringot/Prefabs/flowerpot.prefab
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_fbx1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat3

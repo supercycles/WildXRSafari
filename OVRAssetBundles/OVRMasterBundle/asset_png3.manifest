@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1902118216
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f8c4f7056f1e77d19b0496d024b6f24
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6f8c4f7056f1e77d19b0496d024b6f24
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+- Assets/Stones/Textures/stones_normal.png
+- Assets/Materials/stonewall_normal.png
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock6_h.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+- Assets/RTP Vol.1/Materials/tree2 leaf.png
+- Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+Dependencies: []

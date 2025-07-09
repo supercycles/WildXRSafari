@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 1372515662
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8a9253214769106226a7066c39bd3ccb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9d918c4cf26232983ed6559d2a7710e5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8a9253214769106226a7066c39bd3ccb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b71d1996d67004241a3b69960856ffcb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f07515ada089df47868559a20dd6783, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0019/Tropical_Plant_0019_1.prefab
+- Assets/Meshes/Fence.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0025/Tropical_Plant_0025_2.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6B.prefab
+- Assets/Tropical Plant/Asset/Prefab/Vine 053-055/SM_Vine_0055.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_008/Tropical_Plant_008_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0019/Tropical_Plant_0019_2.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup2.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0022/Tropical_Plant_0022_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0021/Tropical_Plant_0021_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0016/Tropical_Plant_0016_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0017/Tropical_Plant_0017_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0028/Tropical_Plant_0028_1.prefab
+- Packages/com.meta.xr.sdk.core/Prefabs/OVRPlayerController.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_009/Tropical_Plant_009_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0017/Tropical_Plant_0017_4.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0029/Tropical_Plant_0029_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0015/Tropical_Plant_0015_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0020/Tropical_Plant_0020_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0032/Tropical_Plant_0032_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_002/Tropical_Plant_002_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_001/Tropical_Plant_001_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0022/Tropical_Plant_0022_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_005/Tropical_Plant_005_1.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0032/Tropical_Plant_0032_2.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_0024/Tropical_Plant_0024_1.prefab
+- Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab
+- Assets/Tropical Plant/Asset/Prefabs/Tropical_Plant_004/Tropical_Plant_004_1.prefab
+- Assets/Tropical Plant/Asset/Prefab/Vine 029-030/Vine_0029.prefab
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_fbx1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_mat3

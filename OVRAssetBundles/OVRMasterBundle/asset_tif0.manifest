@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2152642053
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d37ae1ae1a02389bfab164ac5fc48827
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d37ae1ae1a02389bfab164ac5fc48827
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail2_nmp.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock1_nmp.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock1.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_nmp.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock6.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock6_nmp.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rock5.tif
+- Assets/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail2.tif
+Dependencies: []

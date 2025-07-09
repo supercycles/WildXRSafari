@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 3173968218
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3d1f450cf9badd617033fd198c65f95
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 578cae1514c4bfc7af91ae6ffc40617f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f3d1f450cf9badd617033fd198c65f95
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 72
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30f4b897495c7ad40b2d47143e02aaba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector2Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+Assets:
+- Assets/New Terrain 1.asset
+- Assets/Scenes/wott_Profiles/Post Process Volume Profile.asset
+- Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+Dependencies:
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_compute0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png1
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png2
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_png3
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_terrainlayer0
+- C:/Users/ordor/WildXRSafari/OVRAssetBundles/OVRMasterBundle/asset_tga0
