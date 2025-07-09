@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wild XR Safari - Portfolio Project</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f6f8fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+	.hero-header {
+	  position: relative;
+	  width: 100%;
+	  height: 300px; /* adjust height as needed */
+	  background: url('./images/wildx-safari.png');
+	  background-attachment: fixed;       /* creates parallax effect */
+	  background-size: cover;
+	  background-position: center -300px; /* shifted 300px up */
+	  background-repeat: no-repeat;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  text-align: center;
+	  color: white;
+	  overflow: hidden;
+  
+	}
+
+	.hero-header::after {
+	  content: "";
+	  position: absolute;
+	  top: 0; left: 0;
+	  width: 100%; height: 100%;
+	  background: rgba(0, 0, 0, 0.4);
+	  z-index: 1;
+	}
+	
+	.hero-text {
+	  position: relative;
+	  z-index: 2; /* keeps text above scrim */
+	  max-width: 90%;
+	  padding: 0 1rem;
+	}
+	
+	.hero-text h1 {
+	  font-size: 2rem;
+	  margin: 0 0 0.5rem 0;
+	}
+
+	.hero-text p {
+	  font-size: 1.2rem;
+	  margin: 0;
+	}
+
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+	h1 {
+      color: #ffffff;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .feature, .process-step {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem; /* add space between content and border */
+      border-bottom: 1px solid #ddd; /* hairline divider */
+    }
+    .feature img, .process-step img {
+      width: 240px;
+      height: 160px;
+      object-fit: cover;
+      margin-right: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .feature img:hover, .process-step img:hover {
+      transform: scale(1.05);
+    }
+    .text-block {
+  flex: 1 1 60%;
+  margin: 0.5rem 0;
+}
+
+.text-block h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.text-block p {
+  line-height: 1.1;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.step-number {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  padding: 0.25em 0.6em;
+  border-radius: 6px;
+  margin-right: 0.5em;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+    
+    .feature p, .process-step p {
+      flex: 1 1 60%;
+      margin: 0.5rem 0;
+      font-size: 1.2rem;       /* bigger font for readability */
+      color: #444; 
+    }
+.feature.reverse, .process-step.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature.reverse img, .process-step.reverse img {
+  margin-right: 0;        /* remove default right margin */
+  margin-left: 1rem;      /* add left margin instead */
+}
+
+.feature:last-of-type, .process-step:last-of-type {
+  border-bottom: none;
+}
+
+	.link-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  gap: 1rem;
+	  margin-top: 1rem;
+	}
+	
+	.link-button {
+	  display: inline-block;
+	  background-color: #2c3e50;
+	  color: white;
+	  text-decoration: none;
+	  padding: 0.75rem 1.25rem;
+	  border-radius: 6px;
+	  font-size: 1rem;
+	  text-align: center;
+	  flex: 1 0 auto; /* prevents buttons from shrinking too small */
+	  transition: background-color 0.3s;
+	}
+	
+	.link-button:hover {
+	  background-color: #34495e;
+	}
+
+    .links a {
+      display: inline-block;
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #3498db;
+      border: 1px solid #3498db;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .links a:hover {
+      background: #3498db;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+	.lightbox-overlay {
+	  display: none;
+	  position: fixed;
+	  z-index: 999;
+	  top: 0; left: 0;
+	  width: 100%; height: 100%;
+	  background: rgba(0, 0, 0, 0.50); /* darker scrim */
+	  backdrop-filter: blur(2px);      /* subtle blur of background */
+	  justify-content: center;
+	  align-items: center;
+	}
+	.lightbox-overlay img {
+	  max-width: 95%;
+	  max-height: 95%;
+	  border-radius: 10px;
+	  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8); /* stronger shadow for focus */
+	}
+	
+	.lightbox-overlay video {
+	  max-width: 95%;
+	  max-height: 95%;
+	  border-radius: 10px;
+	  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+	  display: none; /* hide by default */
+	}
+
+	.lightbox-overlay.active {
+	  display: flex;
+	}
+
+	.lightbox-close {
+	  position: absolute;
+	  top: 10px;
+	  right: 10px;
+	  font-size: 2rem;
+	  color: white;
+	  background: rgba(0, 0, 0, 0.4);
+	  border: none;
+	  border-radius: 50%;
+	  width: 40px;
+	  height: 40px;
+	  cursor: pointer;
+	  z-index: 1000;
+	  transition: transform 0.2s, color 0.2s;
+	}
+
+	.lightbox-close:hover {
+	  transform: scale(1.2);
+	  color: #f44336;
+	}
+
+	body.lightbox-open .back-button {
+	  pointer-events: none; /* disables clicks */
+	  opacity: 0.0;         /* visually indicates disabled */
+	  filter: grayscale(100%);
+	}
+
+	.back-button {
+	  position: fixed;
+	  top: 20px;
+	  left: 20px;
+	  z-index: 10000;
+	  background-color: rgba(44, 62, 80, 0.9);
+	  color: white;
+	  text-decoration: none;
+	  padding: 0.6rem 1rem;
+	  border-radius: 8px;
+	  font-size: 1rem;
+	  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+	  transition: background-color 0.2s, transform 0.2s;
+	}
+
+	.back-button:hover {
+	  background-color: rgba(52, 73, 94, 1);
+	  transform: scale(1.05);
+	}
+
+    @media (max-width: 600px) {
+      .feature, .process-step {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .feature img, .process-step img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+      }
+		.link-container {
+		flex-direction: column;
+		align-items: stretch;
+	  }
+    }
+  </style>
+</head>
+<body>
+<header class="hero-header">
+  <div class="hero-text">
+    <h1>Wild XR Safari: A Virtual Reality Wildlife Experience</h1>
+    <p>Explore, interact, and learn about endangered wildlife in immersive VR.</p>
+  </div>
+</header>
+
+<a href="index.html" class="back-button" aria-label="Back to landing page">
+  ⬅️ Back
+</a>
+
+  <main>
+  <section>
+      <h2>TL;DR Summary</h2>
+      <p>I designed and built a fully interactive VR safari experience using Unity and C# on the Meta Quest platform. The app lets users explore virtual wildlife habitats, interact with 3D animals, and learn through immersive mechanics like scaling, inspecting, and selecting virtual creatures.</p>
+    </section>
+
+    <section>
+      <h2>The Challenge</h2>
+      <p>Wildlife Protection Solutions wanted to innovate in how they educate and engage the public with endangered species. Their small VR team lacked the bandwidth to explore new ideas. I noticed this gap and, on my own initiative, started prototyping an interactive VR experience that pushed the limits of what the team thought was possible.</p>
+    </section>
+
+    <section>
+      <h2>My Role</h2>
+      <ul>
+        <li>Virtual Reality Experience Manager at Wildlife Protection Services</li>
+        <li>Sole designer and developer of this application</li>
+        <li>Responsible for ideation, development, interaction design, testing, and internal presentation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools & Technologies</h2>
+      <ul>
+        <li>Unity (primary development platform)</li>
+        <li>C# (scripting language)</li>
+        <li>Blender (3D modeling for high-poly butterfly models)</li>
+        <li>Meta XR SDK (hand interaction toolkits)</li>
+        <li>Oculus Quest 3 (target hardware)</li>
+        <li>Visual Studio (code editing)</li>
+        <li>Used open-source + purchased assets and customized them heavily</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Key Features</h2>
+      <div class="feature">
+        <img src="./images/keyfeatures_3DEnv.png" alt="Real-time 3D Environment"/>
+	  <div class="text-block">
+		<h3>Real-time 3D Environment</h3>
+		<p>Users can walk through butterfly exhibits in a fully interactive VR habitat</p>
+	  </div>
+        </div>
+      <div class="feature reverse">
+        <img src="./images/keyfeatures_interactivewild.jpeg" alt="Interactive Wildlife"/>
+        <div class="text-block">
+        <h3>Interactive Wildlife</h3>
+        <p>Pinch to “select” butterflies and bring them close</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="./images/keyfeatures_educational.jpeg" alt="Educational Overlays"/>
+        <div class="text-block">
+        <h3>Educational Overlays</h3>
+        <p>Learn about anatomy by selecting body parts</p>
+        </div>
+      </div>
+      <div class="feature reverse">
+        <img src="./images/keyfeatures_naturalint.jpeg" alt="Natural interaction"/>
+         <div class="text-block">
+		<h3>Natural Interaction</h3>
+        <p>Scale, rotate, inspect butterflies with hands</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="./images/keyfeatures_virtualcam.jpeg" alt="Interactive Wildlife"/>
+        <div class="text-block">
+        <h3>Virtual Camera</h3>
+        <p>Users can simulate taking pictures and view them</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Process</h2>
+      <div class="process-step reverse">
+        <img src="./images/pexels-darlene-alderson-4384780.jpg" alt="Hand Tracking Test"/>
+        <div class="text-block">
+        <h3><span class="step-number">1</span>Test Hand Tracking</h3>
+        <p>Started by testing Meta hand tracking and Unity scene interactions.</p>
+        </div>
+      </div>
+      <div class="process-step reverse">
+        <img src="./images/myprocess_step2.png" alt="Build Baseline Interactions"/>
+	  <div class="text-block">
+		<h3><span class="step-number">2</span>Build Baseline Interactions</h3>
+		<p>Used XR Interaction Toolkit for baseline interactions.</p>
+	  </div>
+      </div>
+      <div class="process-step reverse">
+        <img src="./images/myprocess_step3.png" alt="Prototype Selection Logic"/>
+	  <div class="text-block">
+		<h3><span class="step-number">3</span>Prototype Selection Logic</h3>
+		<p>Prototyped selection logic using raycasting and pinch detection.</p>
+	  </div>
+      </div>
+      <div class="process-step reverse">
+        <img src="./images/butterfly-modeling.png" alt="Model High-Poly Butterflies"/>
+	  <div class="text-block">
+		<h3><span class="step-number">4</span>Model 3D Objects and Environment</h3>
+		<p>Modeled objects and structures in Blender, using low-poly counts to avoid performance issues.</p>
+	  </div>
+        </div>
+      <div class="process-step reverse">
+        <img src="./images/woman-using-VR.jpg" alt="Test Iteratively"/>
+	  <div class="text-block">
+		<h3><span class="step-number">5</span>Test Iteratively</h3>
+		<p>Applied iterative testing with friends, family, and the WPS team.</p>
+	  </div>
+        </div>
+      <div class="process-step reverse">
+        <img src="./images/feedback.jpg" alt="Incorporate Feedback<"/>
+	  <div class="text-block">
+		<h3><span class="step-number">6</span>Incorporate Feedback</h3>
+		<p>Incorporated feedback for usability and user onboarding.</p>
+	  </div>
+        </div>
+    </section>
+
+    <section>
+      <h2>Impact</h2>
+      <ul>
+        <li>Team began adopting parts of my prototype into real WPS development</li>
+        <li>Sparked new ideas and creative direction within the company</li>
+        <li>Helped build organizational confidence in what's possible with VR</li>
+        <li>Contributed to my credibility and future role potential at WPS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What I Learned</h2>
+      <p>I learned the importance of feedback and early sharing. If I’d involved others sooner, I could have iterated faster. I also learned how valuable creative autonomy is—I now know I can take an idea from vision to prototype and inspire change, even without being asked.</p>
+    </section>
+
+
+	<section class="links">
+	  <h2>Links</h2>
+	  <div class="link-container">
+		<a href="#" class="link-button">🔗 GitHub Repo</a>
+		<a href="javascript:void(0)" class="link-button" data-video-src="./videos/wildxrsafari_teaser01.MP4">🎬 Watch Video</a>
+		<a href="#" class="link-button">📦 Unity Build</a>
+	  </div>
+	</section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Wild XR Safari Portfolio. Built with ❤️ by Ethan Ordorica.<br>
+    <a rel="noopener noreferrer" href="//flic.kr/p/qJPZEL”">A woman using a VR headset at SXSW, 2015</a>. (Photo by <a href="//www.flickr.com/photos/nanpalmero/”">Nan Palmero</a>, licensed under <a href="//creativecommons.org/licenses/by/2.0/”">CC BY 2.0</a>.)<br>
+    <a rel="noopener noreferrer" href="https://www.flickr.com/photos/31013861@N00/8970444390">Workshop Gamestorming with Sunni Brown on June 6th 2013 in Amsterdam organized by Business Models Inc.</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/31013861@N00">Sebastiaan ter Burg</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.
+  </footer>
+
+
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="Enlarged Image" id="lightboxImage">
+  <video id="lightboxVideo" controls>
+    <source src="" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightboxImage");
+  const lightboxVideo = document.getElementById("lightboxVideo");
+  const lightboxClose = lightbox.querySelector(".lightbox-close");
+
+  // IMAGE LIGHTBOX
+  document.querySelectorAll(".feature img, .process-step img").forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src.replace("-thumb", "-full");
+      lightboxImg.style.display = "block";
+      lightboxVideo.style.display = "none";
+      lightboxVideo.pause(); // just in case
+      lightbox.classList.add("active");
+      document.body.classList.add("lightbox-open");
+    });
+  });
+
+  // VIDEO LIGHTBOX — Replace with your own selector if needed
+  document.querySelectorAll("[data-video-src]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const src = btn.getAttribute("data-video-src");
+      lightboxVideo.src = src;
+      lightboxImg.style.display = "none";
+      lightboxVideo.style.display = "block";
+      lightboxVideo.play();
+      lightbox.classList.add("active");
+      document.body.classList.add("lightbox-open");
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightboxVideo.pause();
+    lightboxVideo.currentTime = 0;
+    document.body.classList.remove("lightbox-open");
+  }
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox || e.target === lightboxClose) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && lightbox.classList.contains("active")) {
+      closeLightbox();
+    }
+  });
+</script>
+
+</body>
+</html>
