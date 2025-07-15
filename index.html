@@ -27,7 +27,7 @@
 	  background: url('./images/wildx-safari.png');
 	  background-attachment: fixed;       /* creates parallax effect */
 	  background-size: cover;
-	  background-position: center -300px; /* shifted 300px up */
+	  background-position: center center; /* shifted 300px up: -300px */
 	  background-repeat: no-repeat;
 	  display: flex;
 	  align-items: center;
@@ -36,6 +36,19 @@
 	  color: white;
 	  overflow: hidden;
   
+	}
+	
+	.hero-header img.parallax-bg { /* mobile fix start */
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: auto;
+	  min-height: 100%;
+	  object-fit: cover;
+	  z-index: 0;
+	  will-change: transform;
+	  transition: transform 0.1s ease-out; /* mobile fix end */
 	}
 
 	.hero-header::after {
@@ -299,7 +312,8 @@
   </style>
 </head>
 <body>
-<header class="hero-header">
+<header class="hero-header"> 
+  <img src="./images/wildx-safari.png" alt="Wild XR Safari Banner" class="parallax-bg" />
   <div class="hero-text">
     <h1>Wild XR Safari: A Virtual Reality Wildlife Experience</h1>
     <p>Explore, interact, and learn about endangered wildlife in immersive VR.</p>
@@ -407,8 +421,8 @@
       <div class="process-step reverse">
         <img src="./images/butterfly-modeling.png" alt="Model High-Poly Butterflies"/>
 	  <div class="text-block">
-		<h3><span class="step-number">4</span>Model 3D Objects and Environment</h3>
-		<p>Modeled objects and structures in Blender, using low-poly counts to avoid performance issues.</p>
+		<h3><span class="step-number">4</span>Model High-Poly Butterflies</h3>
+		<p>Modeled high-poly butterflies in Blender to avoid performance issues.</p>
 	  </div>
         </div>
       <div class="process-step reverse">
@@ -447,7 +461,7 @@
 	  <h2>Links</h2>
 	  <div class="link-container">
 		<a href="#" class="link-button">🔗 GitHub Repo</a>
-		<a href="javascript:void(0)" class="link-button" data-video-src="./videos/wildxrsafari_teaser01.MP4">🎬 Watch Video</a>
+		<a href="javascript:void(0)" class="link-button" data-youtube="https://www.youtube.com/embed/Z65B3TlhJhQ">🎬 Watch Video</a>
 		<a href="#" class="link-button">📦 Unity Build</a>
 	  </div>
 	</section>
@@ -468,6 +482,11 @@
     <source src="" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
+  <div id="lightboxIframeWrapper" style="display: none; width: 90%; max-width: 800px;">
+    <iframe id="lightboxIframe" width="100%" height="450" frameborder="0"
+      allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+  </div>
 </div>
 
 
@@ -475,51 +494,82 @@
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightboxImage");
   const lightboxVideo = document.getElementById("lightboxVideo");
+  const lightboxIframe = document.getElementById("lightboxIframe");
+  const lightboxIframeWrapper = document.getElementById("lightboxIframeWrapper");
   const lightboxClose = lightbox.querySelector(".lightbox-close");
+  const parallax = document.querySelector('.parallax-bg');
 
-  // IMAGE LIGHTBOX
-  document.querySelectorAll(".feature img, .process-step img").forEach(img => {
-    img.addEventListener("click", () => {
-      lightboxImg.src = img.src.replace("-thumb", "-full");
-      lightboxImg.style.display = "block";
-      lightboxVideo.style.display = "none";
-      lightboxVideo.pause(); // just in case
-      lightbox.classList.add("active");
-      document.body.classList.add("lightbox-open");
-    });
+
+	// IMAGE LIGHTBOX
+	document.querySelectorAll(".feature img, .process-step img").forEach(img => {
+	  img.addEventListener("click", () => {
+		lightboxImg.src = img.src.replace("-thumb", "-full");
+		lightboxImg.style.display = "block";
+		lightboxVideo.style.display = "none";
+		lightboxIframeWrapper.style.display = "none";
+		lightbox.classList.add("active");
+		document.body.classList.add("lightbox-open");
+	  });
+	});
+
+	// MP4 VIDEO LIGHTBOX
+	document.querySelectorAll("[data-video-src]").forEach(btn => {
+	  btn.addEventListener("click", () => {
+		const src = btn.getAttribute("data-video-src");
+		lightboxImg.style.display = "none";
+		lightboxVideo.src = src;
+		lightboxVideo.style.display = "block";
+		lightboxIframeWrapper.style.display = "none";
+		lightboxVideo.play();
+		lightbox.classList.add("active");
+		document.body.classList.add("lightbox-open");
+	  });
+	});
+
+	// YOUTUBE VIDEO LIGHTBOX
+	document.querySelectorAll("[data-youtube]").forEach(btn => {
+	  btn.addEventListener("click", () => {
+		const src = btn.getAttribute("data-youtube");
+		lightboxImg.style.display = "none";
+		lightboxVideo.pause();
+		lightboxVideo.style.display = "none";
+		lightboxVideo.src = "";
+		lightboxIframe.src = src + "?autoplay=1"; // autoplay
+		lightboxIframeWrapper.style.display = "block";
+		lightbox.classList.add("active");
+		document.body.classList.add("lightbox-open");
+	  });
+	});
+
+	function closeLightbox() {
+	  lightbox.classList.remove("active");
+	  lightboxImg.style.display = "none";
+	  lightboxVideo.pause();
+	  lightboxVideo.currentTime = 0;
+	  lightboxVideo.style.display = "none";
+	  lightboxVideo.src = "";
+	  lightboxIframe.src = "";
+	  lightboxIframeWrapper.style.display = "none";
+	  document.body.classList.remove("lightbox-open");
+	}
+
+	lightbox.addEventListener("click", (e) => {
+	  if (e.target === lightbox || e.target === lightboxClose) {
+		closeLightbox();
+	  }
+	});
+
+	document.addEventListener("keydown", (e) => {
+	  if (e.key === "Escape" && lightbox.classList.contains("active")) {
+		closeLightbox();
+	  }
+	});
+  
+  window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+    parallax.style.transform = `translateY(${scrolled * 0.4}px)`;
   });
-
-  // VIDEO LIGHTBOX — Replace with your own selector if needed
-  document.querySelectorAll("[data-video-src]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const src = btn.getAttribute("data-video-src");
-      lightboxVideo.src = src;
-      lightboxImg.style.display = "none";
-      lightboxVideo.style.display = "block";
-      lightboxVideo.play();
-      lightbox.classList.add("active");
-      document.body.classList.add("lightbox-open");
-    });
-  });
-
-  function closeLightbox() {
-    lightbox.classList.remove("active");
-    lightboxVideo.pause();
-    lightboxVideo.currentTime = 0;
-    document.body.classList.remove("lightbox-open");
-  }
-
-  lightbox.addEventListener("click", (e) => {
-    if (e.target === lightbox || e.target === lightboxClose) {
-      closeLightbox();
-    }
-  });
-
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && lightbox.classList.contains("active")) {
-      closeLightbox();
-    }
-  });
+  
 </script>
 
 </body>
