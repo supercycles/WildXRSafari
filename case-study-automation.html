@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Case Study: WildX Virtual Reality Automation – Ethan Ordorica</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2, h3 {
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+    }
+    blockquote {
+      margin-left: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+      color: #555;
+    }
+    .footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .tldr {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-left: 4px solid #3b82f6;
+      margin-bottom: 2rem;
+    }
+    .tldr strong {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>WildX: Automating Immersive Wildlife Experiences in Virtual Reality</h1>
+  <p><strong>Case Study by Ethan Ordorica – Virtual Reality Experience Manager</strong></p>
+
+  <div class="tldr">
+    <strong>TL;DR</strong>
+    Ethan led a successful initiative to automate the daily startup and recovery of VR stations running the WildX app across multiple venues. He designed a 3-tier fallback system that ensured uninterrupted guest experiences, even when hardware or software failed. The solution used batch scripts, process monitoring, and VR streaming tools like Virtual Desktop. While the prototype was ultimately shelved in favor of a broader team-led solution, Ethan’s work directly influenced the design of more scalable and reliable systems now in production.
+  </div>
+
+  <h2>👤 Role</h2>
+  <p>
+    As the Virtual Reality Experience Manager at Wildlife Protection Solutions, I led operations and automation for the WildX application—an immersive VR experience deployed at public venues across Colorado. My responsibilities included managing technical systems, training staff, improving guest experiences, and building automation tools to scale operations.
+  </p>
+
+  <h2>🌍 About WildX</h2>
+  <p>
+    WildX is a virtual reality app that allows users to explore the globe and view 360° wildlife footage captured during real conservation efforts. Each deployment was customized for the location—whether highlighting spiders at the Butterfly Pavilion or aquatic life at the Downtown Aquarium.
+  </p>
+
+  <h2>🛠 Initial Challenge</h2>
+  <p>
+    As we expanded to multiple venues, manually starting and monitoring each system became time-consuming and unsustainable. The goal: implement a fully automated launch and shutdown system to increase efficiency and reduce daily manual tasks.
+  </p>
+
+  <h2>⚙️ Goal: Automate Startup and Improve Reliability</h2>
+  <ul>
+    <li>Boot systems automatically each morning</li>
+    <li>Ensure reliable guest experiences without staff intervention</li>
+    <li>Recover gracefully from headset or connection failures</li>
+  </ul>
+
+  <h2>🔁 The Solution: Redundancy-Based Automation System</h2>
+  <p>
+    I designed a 3-tier system to ensure failover and system continuity:
+  </p>
+
+  <h3>1. Primary Setup</h3>
+  <ul>
+    <li>Wired headset connected to a PC and mirrored to a TV</li>
+    <li>Automatic morning startup and nightly shutdown</li>
+  </ul>
+
+  <h3>2. Wireless Redundancy</h3>
+  <ul>
+    <li>Triggered when a cable disconnect or crash is detected</li>
+    <li>Launched <code>Virtual Desktop</code> to wirelessly stream from headset to PC</li>
+  </ul>
+
+  <h3>3. Local Fallback</h3>
+  <ul>
+    <li>If wireless streaming fails, system launches a local video mode</li>
+    <li>Maintains continuity even without tracking or PC connection</li>
+  </ul>
+
+  <h2>🔧 Implementation Details</h2>
+  <ul>
+    <li>Windows <code>batch scripts</code> monitored headset and app processes</li>
+    <li><code>Power Automate</code> and macro tools triggered fallbacks</li>
+    <li>Used a VR-optimized router to improve wireless stability</li>
+  </ul>
+
+  <blockquote>
+    “If the first link failed, it would go to the redundancy and so on. The system worked as intended.”  
+    — Ethan Ordorica
+  </blockquote>
+
+  <h2>📦 Tech Stack</h2>
+  <ul>
+    <li>Windows batch scripting</li>
+    <li>Power Automate macros</li>
+    <li>Virtual Desktop (3rd-party VR streaming)</li>
+    <li>Selenium (for future browser automation)</li>
+    <li>Meta Quest / Oculus headsets</li>
+  </ul>
+
+  <h2>🚀 Deployment Experience</h2>
+  <p>
+    I deployed the system at the Butterfly Pavilion for real-world testing. While the solution ran successfully, it was paused after internal feedback flagged the need for more QA collaboration and rollout planning.
+  </p>
+  <p>
+    This experience helped me better understand software lifecycle processes—especially the importance of testing, stakeholder alignment, and staged deployment.
+  </p>
+
+  <h2>📚 Lessons Learned</h2>
+  <ul>
+    <li>Share and iterate with teams before going live</li>
+    <li>Documentation and QA are essential for scaling ideas</li>
+    <li>Scripting and automation skills opened up new tech directions for me</li>
+  </ul>
+
+  <h2>🧠 Takeaways</h2>
+  <p>
+    While the initial version was retired, the concept influenced newer automation systems used across our venues. I learned how to take initiative, build production-grade tooling, and collaborate effectively with QA, development, and operations.
+  </p>
+
+  <div class="footer">
+    &copy; 2025 Ethan Ordorica. All rights reserved.
+  </div>
+
+</body>
+</html>
