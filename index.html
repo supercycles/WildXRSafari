@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wild XR Safari - Portfolio Project</title>
+  <title>WildX VR Automation - Portfolio Project</title>
   <style>
     body {
       font-family: "Helvetica Neue", sans-serif;
@@ -95,12 +95,36 @@
     h2 {
       color: #2c3e50;
     }
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    
+
     ul {
       padding-left: 1.5rem;
     }
     li {
       margin-bottom: 0.5rem;
     }
+    blockquote {
+      margin-left: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+      color: #555;
+    }
+    
+    .tldr {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-left: 4px solid #3b82f6;
+      margin-bottom: 2rem;
+    }
+    .tldr strong {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
     .feature, .process-step {
       display: flex;
       flex-wrap: wrap;
@@ -313,10 +337,10 @@
 </head>
 <body>
 <header class="hero-header"> 
-  <img src="./images/wildx-safari.png" alt="Wild XR Safari Banner" class="parallax-bg" />
+  <img src="./images/wildx-automation-case-study-banner.png" alt="WildX VR Automation Case Study Banner" class="parallax-bg" />
   <div class="hero-text">
-    <h1>Wild XR Safari: A Virtual Reality Wildlife Experience</h1>
-    <p>Explore, interact, and learn about endangered wildlife in immersive VR.</p>
+    <h1>WildX: Automating Immersive Wildlife Experiences in Virtual Reality</h1>
+    <p>Case Study by Ethan Ordorica – Virtual Reality Experience Manager</p>
   </div>
 </header>
 
@@ -326,152 +350,154 @@
 
   <main>
   <section>
+  <div class="tldr">
       <h2>TL;DR Summary</h2>
-      <p>I designed and built a fully interactive VR safari experience using Unity and C# on the Meta Quest platform. The app lets users explore virtual wildlife habitats, interact with 3D animals, and learn through immersive mechanics like scaling, inspecting, and selecting virtual creatures.</p>
-    </section>
-
-    <section>
-      <h2>The Challenge</h2>
-      <p>Wildlife Protection Solutions wanted to innovate in how they educate and engage the public with endangered species. Their small VR team lacked the bandwidth to explore new ideas. I noticed this gap and, on my own initiative, started prototyping an interactive VR experience that pushed the limits of what the team thought was possible.</p>
+      <p>Ethan led a successful initiative to automate the daily startup and recovery of VR stations running the WildX app across multiple venues. He designed a 3-tier fallback system that ensured uninterrupted guest experiences, even when hardware or software failed. The solution used batch scripts, process monitoring, and VR streaming tools like Virtual Desktop. While the prototype was ultimately shelved in favor of a broader team-led solution, Ethan’s work directly influenced the design of more scalable and reliable systems now in production.</p>
+      </div>
     </section>
 
     <section>
       <h2>My Role</h2>
-      <ul>
-        <li>Virtual Reality Experience Manager at Wildlife Protection Services</li>
-        <li>Sole designer and developer of this application</li>
-        <li>Responsible for ideation, development, interaction design, testing, and internal presentation</li>
-      </ul>
+      <p>As the Virtual Reality Experience Manager at Wildlife Protection Solutions, I led operations and automation for the WildX application—an immersive VR experience deployed at public venues across Colorado. My responsibilities included managing technical systems, training staff, improving guest experiences, and building automation tools to scale operations.</p>
     </section>
 
     <section>
-      <h2>Tools & Technologies</h2>
-      <ul>
-        <li>Unity (primary development platform)</li>
-        <li>C# (scripting language)</li>
-        <li>Blender (3D modeling for high-poly butterfly models)</li>
-        <li>Meta XR SDK (hand interaction toolkits)</li>
-        <li>Oculus Quest 3 (target hardware)</li>
-        <li>Visual Studio (code editing)</li>
-        <li>Used open-source + purchased assets and customized them heavily</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Key Features</h2>
-      <div class="feature">
-        <img src="./images/keyfeatures_3DEnv.png" alt="Real-time 3D Environment"/>
+      <h2>About WildX</h2>
+      <p> </p>
+      
+     <div class="feature">
+        <img src="./images/DCC-L-BUTTERFLY_1MJ6979.webp" alt="Virtual Reality Headset Demonstration at the Butterfly Pavilion in Broomfieled"/>
 	  <div class="text-block">
-		<h3>Real-time 3D Environment</h3>
-		<p>Users can walk through butterfly exhibits in a fully interactive VR habitat</p>
+		<h3>An Immersive Wildlife Experience</h3>
+		<p>WildX is a virtual reality app that allows users to explore the globe and view 360° wildlife footage captured during real conservation efforts. Each deployment was customized for the location—whether highlighting spiders at the Butterfly Pavilion or aquatic life at the Downtown Aquarium in Denver, Colorado.</p>
 	  </div>
-        </div>
-      <div class="feature reverse">
-        <img src="./images/keyfeatures_interactivewild.jpeg" alt="Interactive Wildlife"/>
+	  
+
+    </section>
+
+    <section>
+      <h2>Initial Challenge</h2>
+        <p>As we expanded to multiple venues, manually starting and monitoring each system became time-consuming and unsustainable. The goal: implement a fully automated launch and shutdown system to increase efficiency and reduce daily manual tasks.
+  </p>
+    </section>
+    
+    <section>
+      <h2>Goal: Automate Startup and Improve Reliability</h2>
+	  <ul>
+		<li>Boot systems automatically each morning</li>
+		<li>Ensure reliable guest experiences without staff intervention</li>
+		<li>Recover gracefully from headset or connection failures</li>
+	  </ul>
+    </section>
+
+    <section>
+      <h2>The Solution: Redundancy-Based Automation System</h2>
+      <p>I designed a 3-tier system to ensure failover and system continuity:</p>
+      <div class="process-step reverse">
+        <img src="./images/primarysetup.jpg" alt="Image of WildX Application VR Headset Setup"/>
         <div class="text-block">
-        <h3>Interactive Wildlife</h3>
-        <p>Pinch to “select” butterflies and bring them close</p>
-        </div>
+        <h3><span class="step-number">1</span>Primary Setup</h3>
+	  <ul>
+		<li>Wired headset connected to a PC and mirrored to a TV</li>
+		<li>Automatic morning startup and nightly shutdown</li>
+	  </ul>        
+	  </div>
       </div>
-      <div class="feature">
-        <img src="./images/keyfeatures_educational.jpeg" alt="Educational Overlays"/>
-        <div class="text-block">
-        <h3>Educational Overlays</h3>
-        <p>Learn about anatomy by selecting body parts</p>
-        </div>
+      
+      <div class="process-step reverse">
+        <img src="./images/virtualdesktop.jpg" alt="Image of Virtual Desktop Logo"/>
+	  <div class="text-block">
+		<h3><span class="step-number">2</span>Wireless Redundancy</h3>
+	  <ul>
+		<li>Triggered when a cable disconnect or crash is detected</li>
+		<li>Launched <code>Virtual Desktop</code> to wirelessly stream from headset to PC</li>
+	  </ul>
+  	  </div>
       </div>
-      <div class="feature reverse">
-        <img src="./images/keyfeatures_naturalint.jpeg" alt="Natural interaction"/>
-         <div class="text-block">
-		<h3>Natural Interaction</h3>
-        <p>Scale, rotate, inspect butterflies with hands</p>
-        </div>
+      
+      <div class="process-step reverse">
+        <img src="./images/powerautomate.png" alt="Prototype Selection Logic"/>
+	  <div class="text-block">
+		<h3><span class="step-number">3</span>Local Fallback</h3>
+	  <ul>
+		<li>If wireless streaming fails, system launches a local video mode</li>
+		<li>Maintains continuity even without tracking or PC connection</li>
+	  </ul>	  
+  </div>
       </div>
-      <div class="feature">
-        <img src="./images/keyfeatures_virtualcam.jpeg" alt="Interactive Wildlife"/>
-        <div class="text-block">
-        <h3>Virtual Camera</h3>
-        <p>Users can simulate taking pictures and view them</p>
-        </div>
-      </div>
+      
     </section>
 
     <section>
-      <h2>My Process</h2>
-      <div class="process-step reverse">
-        <img src="./images/pexels-darlene-alderson-4384780.jpg" alt="Hand Tracking Test"/>
-        <div class="text-block">
-        <h3><span class="step-number">1</span>Test Hand Tracking</h3>
-        <p>Started by testing Meta hand tracking and Unity scene interactions.</p>
-        </div>
-      </div>
-      <div class="process-step reverse">
-        <img src="./images/myprocess_step2.png" alt="Build Baseline Interactions"/>
-	  <div class="text-block">
-		<h3><span class="step-number">2</span>Build Baseline Interactions</h3>
-		<p>Used XR Interaction Toolkit for baseline interactions.</p>
-	  </div>
-      </div>
-      <div class="process-step reverse">
-        <img src="./images/myprocess_step3.png" alt="Prototype Selection Logic"/>
-	  <div class="text-block">
-		<h3><span class="step-number">3</span>Prototype Selection Logic</h3>
-		<p>Prototyped selection logic using raycasting and pinch detection.</p>
-	  </div>
-      </div>
-      <div class="process-step reverse">
-        <img src="./images/butterfly-modeling.png" alt="Model High-Poly Butterflies"/>
-	  <div class="text-block">
-		<h3><span class="step-number">4</span>Model High-Poly Butterflies</h3>
-		<p>Modeled high-poly butterflies in Blender to avoid performance issues.</p>
-	  </div>
-        </div>
-      <div class="process-step reverse">
-        <img src="./images/woman-using-VR.jpg" alt="Test Iteratively"/>
-	  <div class="text-block">
-		<h3><span class="step-number">5</span>Test Iteratively</h3>
-		<p>Applied iterative testing with friends, family, and the WPS team.</p>
-	  </div>
-        </div>
-      <div class="process-step reverse">
-        <img src="./images/feedback.jpg" alt="Incorporate Feedback<"/>
-	  <div class="text-block">
-		<h3><span class="step-number">6</span>Incorporate Feedback</h3>
-		<p>Incorporated feedback for usability and user onboarding.</p>
-	  </div>
-        </div>
+      <h2>Implementation Details</h2>
+	  <ul>
+		<li>Windows <code>batch scripts</code> monitored headset and app processes</li>
+		<li><code>Power Automate</code> and macro tools triggered fallbacks</li>
+		<li>Used a VR-optimized router to improve wireless stability</li>
+	  </ul>
+	  
+  <blockquote>
+    “If the first link failed, it would go to the redundancy and so on. The system worked as intended.”  
+    — Ethan Ordorica
+  </blockquote>
+  
     </section>
 
     <section>
-      <h2>Impact</h2>
-      <ul>
-        <li>Team began adopting parts of my prototype into real WPS development</li>
-        <li>Sparked new ideas and creative direction within the company</li>
-        <li>Helped build organizational confidence in what's possible with VR</li>
-        <li>Contributed to my credibility and future role potential at WPS</li>
-      </ul>
+      <h2>Tech Stack</h2>
+	  <ul>
+		<li>Windows batch scripting</li>
+		<li>Power Automate macros</li>
+		<li>Virtual Desktop (3rd-party VR streaming)</li>
+		<li>Selenium (for future browser automation)</li>
+		<li>Meta Quest / Oculus headsets</li>
+	  </ul>
     </section>
 
     <section>
-      <h2>What I Learned</h2>
-      <p>I learned the importance of feedback and early sharing. If I’d involved others sooner, I could have iterated faster. I also learned how valuable creative autonomy is—I now know I can take an idea from vision to prototype and inspire change, even without being asked.</p>
+      <h2>Deployment Experience</h2>
+	  <p>
+		I deployed the system at the Butterfly Pavilion for real-world testing. While the solution ran successfully, it was paused after internal feedback flagged the need for more QA collaboration and rollout planning.
+	  </p>
+	  <p>
+		This experience helped me better understand software lifecycle processes—especially the importance of testing, stakeholder alignment, and staged deployment.
+	  </p>
     </section>
 
+    <section>
+      <h2>Lessons Learned</h2>
+	  <ul>
+		<li>Share and iterate with teams before going live</li>
+		<li>Documentation and QA are essential for scaling ideas</li>
+		<li>Scripting and automation skills opened up new tech directions for me</li>
+	  </ul>
+    </section>
+
+    <section>
+      <h2>Takeaways</h2>
+  <p>
+    While the initial version was retired, the concept influenced newer automation systems used across our venues. I learned how to take initiative, build production-grade tooling, and collaborate effectively with QA, development, and operations.
+  </p>
+    </section>
 
 	<section class="links">
 	  <h2>Links</h2>
 	  <div class="link-container">
-		<a href="#" class="link-button">🔗 GitHub Repo</a>
-		<a href="javascript:void(0)" class="link-button" data-youtube="https://www.youtube.com/embed/Z65B3TlhJhQ">🎬 Watch Video</a>
-		<a href="#" class="link-button">📦 Unity Build</a>
+		<!-- ><a href="#" class="link-button">🔗 GitHub Repo</a> </-->
+		<a href="javascript:void(0)" class="link-button" data-youtube="https://www.youtube.com/embed/yF5rG5JCAR8">🎬 Watch Video</a>
+		<!-- ><a href="#" class="link-button">📦 Unity Build</a> </-->
 	  </div>
 	</section>
 
   </main>
 
   <footer>
-    &copy; 2025 Wild XR Safari Portfolio. Built with ❤️ by Ethan Ordorica.<br>
-    <a rel="noopener noreferrer" href="//flic.kr/p/qJPZEL”">A woman using a VR headset at SXSW, 2015</a>. (Photo by <a href="//www.flickr.com/photos/nanpalmero/”">Nan Palmero</a>, licensed under <a href="//creativecommons.org/licenses/by/2.0/”">CC BY 2.0</a>.)<br>
-    <a rel="noopener noreferrer" href="https://www.flickr.com/photos/31013861@N00/8970444390">Workshop Gamestorming with Sunni Brown on June 6th 2013 in Amsterdam organized by Business Models Inc.</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/31013861@N00">Sebastiaan ter Burg</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.
+    &copy; 2025 Butterfly Safari VR Portfolio. Built with ❤️ by Ethan Ordorica.<br>
+    <a rel="noopener noreferrer" ">Emma Topping, a communications intern from the University of Colorado Boulder, demonstrates using the virtual reality headset in the Destination: Conservation exhibit at the Butterfly Pavilion in Broomfield on Wednesday, Dec. 18, 2024.</a>. (Photo by <a href="https://x.com/photojmatthew">Matthew Jonas/Staff Photographer</a>, courtesy of <a href="https://x.com/DailyCamera">Boulder Daily Camera</a>.)<br>
+    
+    <a rel="noopener noreferrer" ">ADD WILDX attribution here<br>
+    
+    
   </footer>
 
 
